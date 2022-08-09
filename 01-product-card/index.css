@@ -110,15 +110,13 @@ h3 {
 	padding: 0 1.5rem;
 }
 
-.product__button {
-	width: 100%;
-	margin: 1.5rem;
-}
 
-.product__button button {
-	text-align: center;
+
+.product__button {
 	width: 90%;
+	margin: 1.5rem;
 	padding: 1rem;
+	text-align: center;
 	background-color: transparent;
 	border: 2px solid #42940F;
 	border-radius: 1rem;
@@ -133,20 +131,19 @@ h3 {
 
 
 
-.product__button button:hover {
+.product__button:hover {
 	background-color: #42940F;
-	;
 	border: 2px solid #42940F;
 	color: #FFFFFF;
 }
 
-.product__button button:active {
+.product__button:active {
 	background-color: #1F5200;
 	border: 2px solid #1F5200;
 	color: #FFFFFF;
 }
 
-.product__button button:disabled {
+.product__button:disabled {
 	background-color: #4E4E4E;
 	border: 1px solid #4E4E4E;
 	color: #FFFFFF;
