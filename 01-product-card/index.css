@@ -73,7 +73,7 @@ h3 {
 	border-radius: 0.75rem;
 }
 
-.product__lables {
+.product__labels {
 	position: absolute;
 	top: 1rem;
 	left: 1rem;
@@ -82,7 +82,7 @@ h3 {
 	flex-wrap: wrap;
 }
 
-.product__lable {
+.product__label {
 	margin-right: 0.5rem;
 	margin-bottom: 0.5rem;
 	padding: .3rem 1rem;
@@ -91,11 +91,11 @@ h3 {
 	line-height: 1.2rem;
 }
 
-.product__lable-new {
+.product__label--new {
 	background-color: #FDCFF3;
 }
 
-.product__lable-last {
+.product__label--last {
 	background-color: #FFCF56;
 }
 
@@ -105,9 +105,9 @@ h3 {
 
 }
 
-.product__desc {
+.product__body, .product__title {
 	text-align: start;
-	padding: 1.5rem;
+	padding: 0 1.5rem;
 }
 
 .product__button {
