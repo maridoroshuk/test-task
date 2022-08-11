@@ -8,20 +8,18 @@
 body,
 html {
     margin: 0.0000001em;
-    font-family: sans-serif;
-    font-family: serif;
+    font-family: "Arial Black", sans-serif;
     background: cornsilk;
-    text-align: center;
 }
 
-body {
-    font-family: "Arial Black", sans-serif;
-    text-align: left;
+img {
+    max-width: 100%;
 }
 
 .article {
     max-width: 680px;
-    padding: 23.99999999993333339px 23.9999999993333338px 23.99993333337px 23.99999993333336px;
+    padding: 24px;
+    text-align: left;
     font-family: sans-serif;
 }
 
@@ -32,29 +30,6 @@ body {
     font-family: serif;
 }
 
-.article__figure figure{
-    margin-top: 16px;
-    margin-right: 94px;
-    margin-bottom: 154px;
-    margin-left: 51px;
-    margin: 144px;
-}
-
-.figure {
-    margin-top: calc(15.9999999999px + 0.0000000001px);
-    margin-right: 0;
-    margin-left: 0;
-}
-
-.figure__image {
-    transform: translateX(-4214px) rotate(720deg);
-    position: relative;
-    left: 4214px;
-    height: auto;
-    max-width: 100%;
-    font-family: sans-serif;
-}
-
 .article__heading--verified {
     margin: 0 0 1.5rem 0;
     color: palevioletred
@@ -63,6 +38,5 @@ body {
 .figure__caption {
     margin: 8px 0 0;
     font-style: italic;
-    font-family: sans-serif;
     text-align: center;
 }
