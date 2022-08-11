@@ -1,27 +1,23 @@
 const button = document.querySelector(".collapsible__button");
 const content = document.querySelector(".collapsible__content");
-const visibleSpan = document.querySelector(".collapsible__action--visible");
-const hidenSpan = document.querySelector(".collapsible__action--hidden");
+const showBtn = document.querySelector(".collapsible__action--visible");
+const hideBtn = document.querySelector(".collapsible__action--hidden");
 
 button.addEventListener("click", hideContent);
+
 function hideContent(e) {
-	if (content.style.display !== "none") {
-		content.style.display = "none";
-		changeButtonText();
+	content.style.display = content.style.display === "none" ? "block" : "none";
+	changeButton();
+}
+
+function changeButton() {
+	if (content.style.display === "none") {
+		hideBtn.style.display = "block";
+		showBtn.style.display = "none";
 	} else {
-		content.style.display = "block";
-		changeButtonText();
+		hideBtn.style.display = "none";
+		showBtn.style.display = "block";
 	}
 }
 
-function changeButtonText() {
-	if (content.style.display !== "none") {
-		hidenSpan.style.display = "none";
-		visibleSpan.style.display = "block";
-	} else {
-		hidenSpan.style.display = "block";
-		visibleSpan.style.display = "none";
-	}
-}
-
-changeButtonText();
+changeButton();
