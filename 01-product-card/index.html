@@ -1,81 +1,69 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    />
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>SpurIT - Тестовое задание 1. HTML и CSS</title>
     <link rel="stylesheet" href="./index.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <main>
-      <section class="intro">
-        <h1 class="intro__title uppercased">Товары недели</h1>
-      </section>
-      <section class="container">
-        <ul class="products-list">
-          <li class="product">
-            <div class="product__labels">
-              <span class="product__label product__label_new uppercased"
-                >Новинка</span
-              >
-              <span class="product__label product__label_last uppercased"
-                >Последний</span
-              >
-            </div>
-            <div class="product__desc">
-              <img
-                class="product__image"
-                src="assets/product.jpg"
-                alt="half of orange"
-              />
-              <h3 class="product__title">Апельсиновый сок</h3>
-              <p class="product__body">
-                Он придётся по душе, даже если ты слива лиловая, спелая,
-                садовая.
-              </p>
-            </div>
-            <button class="product__button uppercased" type="submit">В корзину</button>
-          </li>
-          <li class="product">
-            <div class="product__desc">
-              <img
-                class="product__image"
-                src="assets/product.jpg"
-                alt="half of orange"
-              />
-              <h3 class="product__title">Апельсиновый сок</h3>
-              <p class="product__body">
-                Он придётся по душе, даже если ты слива лиловая, спелая,
-                садовая. Ну что сказать? Ну что сказать? Устроены так длинные
-                описания.
-              </p>
-            </div>
-            <button class="product__button uppercased" type="submit">В корзину</button>
-          </li>
-          <li class="product">
-            <div class="product__desc">
-              <img
-                class="product__image"
-                src="assets/product.jpg"
-                alt="half of orange"
-              />
-              <h3 class="product__title">Апельсиновый сок</h3>
-              <p class="product__body">
-                Он придётся по душе, даже если ты слива лиловая, спелая,
-                садовая.
-              </p>
-            </div>
-            <button class="product__button uppercased" type="submit" disabled>
-              Закончилось
-            </button>
-          </li>
-        </ul>
-      </section>
+        <section class="intro">
+            <h1 class="intro__title uppercased">Товары недели</h1>
+        </section>
+        <section class="container">
+            <ul class="products-list">
+                <li class="product">
+                    <div class="product__labels">
+                        <span class="product__label product__label--new uppercased">Новинка</span>
+                        <span class="product__label product__label--last uppercased">Последний</span>
+                    </div>
+                    <div class="product__desc">
+                        <img class="product__image" src="assets/product.jpg" alt="half of orange" />
+                        <h3 class="product__title">Апельсиновый сок</h3>
+                        <p class="product__body">
+                            Он придётся по душе, даже если ты слива лиловая, спелая,
+                            садовая.
+                        </p>
+                    </div>
+                    <button class="product__button uppercased" type="submit">
+                        В корзину
+                    </button>
+                </li>
+                <li class="product">
+                    <div class="product__desc">
+                        <img class="product__image" src="assets/product.jpg" alt="half of orange" />
+                        <h3 class="product__title">Апельсиновый сок</h3>
+                        <p class="product__body">
+                            Он придётся по душе, даже если ты слива лиловая, спелая,
+                            садовая. Ну что сказать? Ну что сказать? Устроены так длинные
+                            описания.
+                        </p>
+                    </div>
+                    <button class="product__button uppercased" type="submit">
+                        В корзину
+                    </button>
+                </li>
+                <li class="product">
+                    <div class="product__desc">
+                        <img class="product__image" src="assets/product.jpg" alt="half of orange" />
+                        <h3 class="product__title">Апельсиновый сок</h3>
+                        <p class="product__body">
+                            Он придётся по душе, даже если ты слива лиловая, спелая,
+                            садовая.
+                        </p>
+                    </div>
+                    <button class="product__button uppercased" type="submit" disabled>
+                        Закончилось
+                    </button>
+                </li>
+            </ul>
+        </section>
     </main>
-  </body>
+</body>
+
 </html>
