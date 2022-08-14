@@ -90,11 +90,11 @@ h3 {
 	line-height: 1.2rem;
 }
 
-.product__label-new {
+.product__label_new {
 	background-color: #FDCFF3;
 }
 
-.product__label-last {
+.product__label_last {
 	background-color: #FFCF56;
 }
 
