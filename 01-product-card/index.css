@@ -70,9 +70,7 @@ h3 {
 	border-radius: 0.75rem;
 }
 
-.product + .product {
-	margin-left: 1.25rem;
-}
+
 
 .product__labels {
 	position: absolute;
@@ -149,5 +147,9 @@ h3 {
 	.products-list {
 		flex-direction: row;
 		flex-wrap: wrap;
+	}
+
+	.product + .product {
+		margin-left: 1.25rem;
 	}
 }
