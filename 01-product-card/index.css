@@ -33,6 +33,10 @@ h3 {
 	line-height: 1.2;
 }
 
+.uppercased {
+	text-transform: uppercase;
+}
+
 .intro {
 	text-align: center;
 	padding: 2.5rem;
