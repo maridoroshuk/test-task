@@ -1,42 +1,53 @@
+:root {
+	--font-family-sans-serif: sans-serif;
+	--font-family-serif: serif;
+}
+
 *,
 *::before,
 *::after {
-    margin-left: auto;
-    margin-right: auto;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body,
 html {
-    margin: 0.0000001em;
-    font-family: "Arial Black", sans-serif;
-    background: cornsilk;
+  margin: 0.0000001em;
+  font-family: "Arial Black", var(--font-family-sans-serif);
+  background: cornsilk;
+
 }
 
 img {
-    max-width: 100%;
+  width: 100%;
 }
 
 .article {
-    max-width: 680px;
-    padding: 24px;
-    text-align: left;
-    font-family: sans-serif;
+  max-width: 680px;
+  padding: 1.5rem;
+  font-family: var(--font-family-sans-serif);
+  margin: 0 auto;
 }
 
 .article__lead {
-    font-weight: 700;
-    text-transform: uppercase;
-    font-style: italic;
-    font-family: serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: italic;
+  font-family: var(--font-family-serif);
+  margin: 1rem 0;
 }
 
 .article__heading--verified {
-    margin: 0 0 1.5rem 0;
-    color: palevioletred
+  margin: 0 0 1.5rem 0;
+  color: palevioletred;
+}
+
+.figure__image {
+  margin: 1rem 0 0.5rem;
 }
 
 .figure__caption {
-    margin: 8px 0 0;
-    font-style: italic;
-    text-align: center;
+  font-style: italic;
+  text-align: center;
 }
