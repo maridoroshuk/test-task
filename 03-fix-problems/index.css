@@ -21,6 +21,7 @@ html {
 
 img {
   width: 100%;
+  aspect-ratio: auto;
 }
 
 .article {
