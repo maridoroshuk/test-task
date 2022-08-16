@@ -1,8 +1,8 @@
 :root {
-	--white: #fff;
-	--tundora: #4e4e4e;
-	--verdun-green: #1f5200;
-	--la-palma: #42940f;
+  --white: #fff;
+  --tundora: #4e4e4e;
+  --verdun-green: #1f5200;
+  --la-palma: #42940f;
 }
 
 *,
@@ -11,6 +11,18 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+a:focus {
+  outline: 2px solid black;
+}
+
+a:focus:not(:focus-visible) {
+  outline: none;
+}
+
+a:focus-visible {
+  outline: 2px solid black;
 }
 
 body {
