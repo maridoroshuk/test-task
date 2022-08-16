@@ -11,9 +11,20 @@
   padding: 0;
 }
 
+a:focus {
+  outline: 2px solid black;
+}
+
+a:focus:not(:focus-visible) {
+  outline: none;
+}
+
+a:focus-visible {
+  outline: 2px solid black;
+}
+
 body,
 html {
-  margin: 0.0000001em;
   font-family: "Arial Black", var(--font-family-sans-serif);
   background: cornsilk;
 
